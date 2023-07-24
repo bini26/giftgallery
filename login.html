@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="project.js"></script>
+    <title>Souvenir</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#"> <img class="logo" src="LOGO.jpg" width="200px" height="100px"></a>
+        <div>
+            <ul id="nav-bar">
+              <li><a href="project.html">Home</a></li>
+              <li><a href="product.html"  >Products</a></li> 
+               <li><a href="about.html">About</a></li>
+              <li><a href="contact.html"  >Contact</a></li>
+              <li><a href="signup.html" class="active">SignUp</a></li>
+              <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="page-header" class="contact-header">
+        <h2>#Lets Be Souvenir Member</h2>
+        <p>We Heartly Welcome You In Our Family</p>
+    </section>
+    <section class="section-p1" id="signupform">
+        <h2>Login</h2>
+        <form action="login.php" method="post" >
+            <div>
+                <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+            <input type="text " placeholder="Username" id="username" name="username" required>
+            </div><div>
+            <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+               
+            <input type="password" placeholder="Password" default="" id="password" name="password" required  > 
+            <span class="eye" onclick="myfunction()">
+            <i class="fa fa-eye" id="hide1"></i>
+            <i class="fa fa-eye-slash" id="hide2"></i>
+        </span>
+        </div>
+            <div>
+                <button class="btn">Login</button>
+            </div>
+            <p>Create New Account?<a href="signup.html" class="login">Signup</a></p>
+        </form>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img src="LOGO.jpg" alt="" width="200px" height="100px" class="logo">
+            <h4>Contact</h4>
+            <p><i class="fa fa-map-marker-alt text-primary mr-3 icon"></i> Sunwal-13</p>
+            <p><i class="fa fa-phone alt text-primary mr-3 icon"></i>0245756,9806544365</p>
+            <p><i class="fa fa-envelope text-primary mr-3 icon"></i> souvenir@gmail.com</p></div>
+            <div class="links">
+                <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
+                <div class="colm">
+                    <a class="text-dark mb-2" href="project.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-dark mb-2" href="products.html"><i class="fa fa-angle-right mr-2"></i>Products</a>
+                    <a class="text-dark mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-dark mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+                    <a class="text-dark mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="follow"><h4>Follow us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div></div>
+                <div class="copy-right">
+                    <p>@binod pandey-project 4th semester</p>
+                </div>
+    </footer>
+   
+</body>
+</html>

@@ -1,0 +1,10 @@
+.btn-lg{
+background-color:#6fc3f4;
+transition: 2s ease;
+}
+#signin:hover {
+background-color:#c7cff1;
+}
+.menu-title:hover{
+    background-color: #c7cff1;
+}
