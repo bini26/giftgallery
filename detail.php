@@ -14,6 +14,7 @@
     padding:100px;
     margin-bottom:20px;
 }
+<!--helloo   binod from anmun -->
 #detail_wrapper .dess h3,h4{
     padding-bottom:10px;
     margin:5px;
